@@ -1,0 +1,42 @@
+@use 'header';
+@import 'variable'; 
+
+body{
+    background: black;
+    color: $couleur;
+    margin: 0;
+}
+p {
+    padding-left: 5px;
+    text-align: justify;
+    color: $couleur;
+}
+// .message{
+//     color: white;
+//     border-radius: 10px;
+//     padding: 10px;
+//     margin: 20px;
+//     text-align: center;
+//     font-size: 1.2em;
+// }
+@mixin message($couleur: white) {
+    color: $couleur; 
+    border-radius: 10px;
+    padding: 10px;
+    margin: 20px;
+    text-align: center;
+    font-size: 1.2em;
+}
+.erreur{
+    background-color: red;
+    @include message();
+}
+.success{
+    background-color: green;
+   @include message();
+}
+.notis{
+    background: bisque;
+    @include message($couleur: black);
+}
+// Je suis toujours la pour la premiere pause

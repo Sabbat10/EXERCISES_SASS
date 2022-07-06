@@ -1,0 +1,71 @@
+header {
+  background-color: white;
+  padding: 1px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+header ul {
+  list-style: none;
+  text-align: center;
+}
+header ul li {
+  display: inline;
+}
+header ul li a {
+  text-decoration: none;
+  color: green;
+  font-size: 1.2em;
+  padding: 10px;
+}
+header ul li a:hover {
+  color: pink;
+  border: 2px solid;
+  border-color: green;
+  border-radius: 10px;
+  padding: 5px;
+}
+
+body {
+  background: black;
+  color: Blue;
+  margin: 0;
+}
+
+p {
+  padding-left: 5px;
+  text-align: justify;
+  color: Blue;
+}
+
+.erreur {
+  background-color: red;
+  color: white;
+  border-radius: 10px;
+  padding: 10px;
+  margin: 20px;
+  text-align: center;
+  font-size: 1.2em;
+}
+
+.success {
+  background-color: green;
+  color: white;
+  border-radius: 10px;
+  padding: 10px;
+  margin: 20px;
+  text-align: center;
+  font-size: 1.2em;
+}
+
+.notis {
+  background: bisque;
+  color: black;
+  border-radius: 10px;
+  padding: 10px;
+  margin: 20px;
+  text-align: center;
+  font-size: 1.2em;
+}
+
+/*# sourceMappingURL=style.css.map */
